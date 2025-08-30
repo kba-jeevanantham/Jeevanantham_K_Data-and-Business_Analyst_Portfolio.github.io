@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jeevanantham k_Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  
+  <head>
+ 
+  
+  <style>
+
+ h2 {
+  font-size: 22px;  /* try 20–24px until it fits */
+  white-space: nowrap; /* forces text to stay in one line */
+}   
+
+.one-third.img {
+  height: 400px;              /* fix the block height (reduce from full screen) */
+  background-size: contain;   /* show the whole image, not stretched */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.one-third.img {
+  height: 700px !important;
+}
+
+
+
+
+.card2 {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+#social-icons .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.svgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(239, 229, 229, 0.466);
+}
+
+.BG {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.Btn:hover .BG {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn:hover .svgContainer {
+  background-color: rgba(156, 156, 156, 0.466);
+  backdrop-filter: blur(4px);
+}
+
+
+    
+.card1 {
+  position: relative;
+  width: 680px;
+  height: 325px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card1__icon { width: 100px; height: 100px; display:block; margin: 8px auto; }
+
+.card1 svg {
+  width: 60px;
+  fill: #fff;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card1:hover {
+  transform: rotate(-0deg) scale(1.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card1__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card1:hover .card1__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+
+.card1__title {
+  margin: 0;
+  font-size: 22px;
+  color: #111;
+  font-weight: 650;
+}
+
+.card1__description {
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.card1:hover svg {
+  scale: 0;
+  transform: rotate(-45deg);
+}
+
+  </style>
+  <style>
+	.card {
+  position: relative;
+  width:  680px;
+  height: 170px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card1__icon { width: 100px; height: 100px; display:block; margin: 8px auto; }
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover {
+  transform: rotate(-0deg) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #020202;
+  line-height: 1.4;
+}
+
+.card:hover svg {
+  scale: 0;
+  transform: rotate(-45deg);
+}
+
+.about-info li span:first-child {
+  color: #000 !important;   /* label (Profile, Domain...) black */
+  font-weight: 600;         /* bold */
+  width: 150px;             /* optional: equal width alignment */
+  display: inline-block;    /* so that values align neatly */
+}
+
+.about-info li span:last-child {
+  color: #000 !important;   /* value (Data Analyst, Tamil...) black */
+  font-weight: 400;         /* normal */
+}
+
+  </style>
+  <style>
+    /* ---- Button Glow Effect ---- */
+    .btn-glow {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      z-index: 1;
+      transition: transform 0.3s ease;
+    }
+
+    .btn-glow:hover {
+      transform: scale(1.05);
+    }
+
+    .btn-glow::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      background: conic-gradient(
+        from 0deg,
+        #ff7eb3,
+        #ff758c,
+        #ff7eb3,
+        #ff758c,
+        #ff7eb3
+      );
+      border-radius: 14px;
+      z-index: -1;
+      animation: rotate 3s linear infinite;
+    }
+
+    .btn-glow::after {
+      content: "";
+      position: absolute;
+      inset: 2px;
+      background: #191818; /* dark bg */
+      border-radius: 10px;
+      z-index: -1;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">JEEVANANTHAM K</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	     <div
+  class="flex justify-center text-xs font-medium items-center shadow-md z-10 bg-[#e8e4df] dark:bg-[#191818] gap-1 p-1 rounded-full mt-2"
+>
+  <a href="#home-section"
+    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-3 before:text-[.5rem] before:px-1 before:content-['Home'] before:bg-black dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-5 before:rounded hover:-translate-y-1 cursor-pointer hover:scale-105 bg-white dark:bg-[#191818] rounded-full p-0.5 px-1"
+  >
+    Home
+  </a>
+  <a href="#about-section"
+    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-3 before:text-[.5rem] before:px-1 before:content-['About'] before:bg-black dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-5 before:rounded hover:-translate-y-1 cursor-pointer hover:scale-105 bg-white dark:bg-[#191818] rounded-full p-0.5 px-1"
+  >
+    About
+  </a>
+  <a href="#project-section"
+    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-3 before:text-[.5rem] before:px-1 before:content-['Projects'] before:bg-black dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-5 before:rounded hover:-translate-y-1 cursor-pointer hover:scale-105 bg-white dark:bg-[#191818] rounded-full p-0.5 px-1"
+  >
+    Projects
+  <a href="#Certificates-section"
+    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-3 before:text-[.5rem] before:px-1 before:content-['Certifications'] before:bg-black dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-5 before:rounded hover:-translate-y-1 cursor-pointer hover:scale-105 bg-white dark:bg-[#191818] rounded-full p-0.5 px-1"
+  >
+    Certifications
+  </a>
+  
+  </a>
+  <a href="#contact-section"
+    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-3 before:text-[.5rem] before:px-1 before:content-['Contact'] before:bg-black dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-5 before:rounded hover:-translate-y-1 cursor-pointer hover:scale-105 bg-white dark:bg-[#191818] rounded-full p-0.5 px-1"
+  >
+    Contact
+  </a>
+</div>
+ </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/prl.4..png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Jeevanantham</span></h1>
+
+                  
+						                            <!-- Element to contain animated typing -->
+						 <span id="typing-animation"></span>
+
+					  <script>
+
+             // Initialize the typing animation
+				     const typingAnimationElement = document.getElementById('typing-animation');
+
+						 // Create an array of typing text
+						 const typingTexts = [
+						 'Fresher  ',
+						 'Job seeker  ',
+						 'Data Analyst   ',
+             'Business Analyst',
+						 ];
+
+						 // Create a function to display the typing animation for a given text
+						 function playTypingAnimation(text) {
+						 // Loop through each character and add it to the element
+						 for (let i = 0; i < text.length; i++) {
+							  setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+						 	 }, i * 200); // Increase the delay to slow down the typing animation
+						 }
+
+						 // Once the animation is complete, reset the text and start over
+						 setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						 }, text.length * 200);
+						 }
+
+						 // Start the typing animation loop
+						 playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Emerging Data & Business Analyst</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p>
+                             <a href="https://public.tableau.com/app/profile/jeevanantham.k4432/vizzes" 
+                             class="btn btn-white btn-outline-white py-3 px-4 btn-glow">Tableau</a>
+
+                             <a href="https://github.com/kba-jeevanantham" 
+                            class="btn btn-white btn-outline-white py-3 px-4 btn-glow">GitHub</a>
+                        </p>
+
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/mine.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+                   
+
+									 <div
+  class="group relative flex w-100 flex-col rounded-xl bg-slate-500 p-4 shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-indigo-500/20"
+>
+  <!-- Glow BG -->
+  <div
+    class="absolute inset-0 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30"
+  ></div>
+  <div class="absolute inset-px rounded-[11px] bg-slate-950"></div>
+
+  <div class="relative">
+    <!-- Header -->
+    <div class="mb-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div
+          class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-500 to-purple-500"
+        >
+          <svg
+            class="h-4 w-4 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5z"
+            ></path>
+          </svg>
+        </div>
+        <h3 class="text-sm font-semibold text-white">Skills Overview</h3>
+      </div>
+    </div>
+
+    <!-- Skills Grid -->
+    <div class="mb-4 grid grid-cols-2 gap-4">
+      <div class="rounded-lg bg-slate-900/50 p-3">
+        <p class="text-xs font-medium text-slate-400">Languages & Tools:</p>
+        <p class="text-sm font-semibold text-white">SQL, Python, Excel, Power BI, Tableau, Git</p>
+      </div>
+
+      <div class="rounded-lg bg-slate-900/50 p-3">
+        <p class="text-xs font-medium text-slate-400">Analytics Techniques:</p>
+        <p class="text-sm font-semibold text-white">ETL, EDA, Data Cleaning, Statistical Analysis, Dashboard Design</p>
+      </div>
+
+      <div class="rounded-lg bg-slate-900/50 p-3">
+        <p class="text-xs font-medium text-slate-400">Business Analysis:</p>
+        <p class="text-sm font-semibold text-white">
+          Requirement Gathering, Gap Analysis, Process Mapping, Documentation
+        </p>
+       </div>
+
+       <div class="rounded-lg bg-slate-900/50 p-3">
+        <p class="text-xs font-medium text-slate-400">Soft Skills:</p>
+        <p class="text-sm font-semibold text-white">Analytical Thinking, Communication, Collaboration, Time Management</p>
+      </div>
+    </div>
+
+    <!-- Skill Bars -->
+	 
+    <div class="mb-4 h-24 w-full overflow-hidden rounded-lg bg-slate-900/50 p-3">
+      <div class="flex h-full w-full items-end justify-between gap-0">
+        <div class="h-[100%] w-5 rounded-sm bg-indigo-500/30">
+          <div
+            class="h-[100%] w-full rounded-sm bg-indigo-500 transition-all duration-300"
+            title="Excel 100%"
+          ></div>
+        </div>
+        <div class="h-[95%] w-5 rounded-sm bg-indigo-500/30">
+          <div
+            class="h-[100%] w-full rounded-sm bg-indigo-500 transition-all duration-300"
+            title="SQL 95%"
+          ></div>
+        </div>
+        <div class="h-[65%] w-5 rounded-sm bg-indigo-500/30">
+          <div
+            class="h-[100%] w-full rounded-sm bg-indigo-500 transition-all duration-300"
+            title="Python(Pandas, Numpy) 65%"
+          ></div>
+        </div>
+        <div class="h-[85%] w-5 rounded-sm bg-indigo-500/30">
+          <div
+            class="h-[100%] w-full rounded-sm bg-indigo-500 transition-all duration-300"
+            title="Power BI 85%"
+          ></div>
+        </div>
+        <div class="h-[90%] w-5 rounded-sm bg-indigo-500/30">
+          <div
+            class="h-[100%] w-full rounded-sm bg-indigo-500 transition-all duration-300"
+            title="Tableau 90%"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+	 
+    <div class="flex items-center justify-between">
+      <span class="text-xs font-medium text-slate-400">Skill Levels</span>
+      <button
+        class="flex items-center gap-1 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 px-3 py-1 text-xs font-medium text-white transition-all duration-300 hover:from-indigo-600 hover:to-purple-600"
+      >
+        View More
+      </button>
+    </div>
+  </div>
+</div>
+
+									<!--<div class="col-sm-15 col-md-15">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Jeevanantham K</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Data Analyst</span></p>
+										<p><span class="title-s">Experience: </span> <span>Fresher</span></p>
+										<p><span class="title-s">Address: </span> <span>Theni, TN, India</span></p>
+									  </div>
+									</div>
+								  </div>
+								  
+                                  <br>
+								  <br>
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									< span>Excel</span><span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>SQL</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>PYTHON</span> <span class="pull-right">65%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width:65%" aria-valuenow="65" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Data Visualization</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Machine Learning</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								 <div class="card">
+                    <img src="images/OIP.webp" alt="Education" class="card__icon">
+                      <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
+                    </svg>
+                        <div class="card__content">
+                          <p class="card__title"></p>
+                          <p class="card__description">
+                               I am <b>Jeevanantham</b>, an aspiring <b>Data & Business Analyst</b> with a strong foundation in <b>Mathematics and hands-on project experience in Retail, BFSI, Healthcare, and E-commerce. Skilled in Power BI, Tableau, SQL, Excel, and Python</b>, I specialize in <b>data visualization, dashboard design, and exploratory data analysis</b>. Passionate about turning raw data into actionable insights that support business growth and decision-making.</p>
+                        </div>
+                    </div>
+               </div>
+	         </div>
+                  <!--
+	             <u1 class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+	              <ul class="about-info mt-4 px-md-0 px-2 ">
+		
+									<li class="d-flex"><span>Profile:</span> <span>Data Analyst</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce &amp; BFSI</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Master's of Mathematics </span></li>
+									<li class="d-flex"><span>Language:</span> <span>Tamil, English</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span> Microsoft Power BI &amp; Tableau</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span> Git &amp;Google Analytics  </span></li>
+									<li class="d-flex"><span>Soft Skills:</span> <span>Problem-Solving,Critical Thinking,Decision Making,Project Management,Adaptability,Research,Business knowledge,Communication</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Chess,coding challenges,Learning and Development</span></li>
+									</ul>
+								</ul>-->
+								
+                            
+    
+                        <!-- About Card -->
+<div class="card1"> 
+  <!-- Front Icon or Title -->
+   <!-- Front Icon (Education) -->
+<img src="images/Education-Icon-PNG-HD-Quality.png" alt="Education" class="card1__icon">
+
+  
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+             10-4.48 10-10S17.52 2 12 2zm0 4a2 
+             2 0 110 4 2 2 0 010-4zm0 12c-2.33 
+             0-4.32-1.46-5.12-3.5h10.24C16.32 
+             16.54 14.33 18 12 18z"></path>
+  </svg>
+
+  <!-- Hidden Content -->
+  <div class="card1__content">
+    <p class="card1__title"></p>
+    <p class="card1__description">
+      <b>B.Sc. Mathematics (2019 – 2022)</b><br>
+               Cardamom Planters' Association College, Madurai Kamaraj University – Bodinayakanur, Theni, TN<br>
+      <b> Score: 82% – First Class with Distinction</b><br>
+         
+                  <br>
+      <b>Higher Secondary School (2018 – 2019)</b><br>
+               Nadar Higher Secondary School – Bodinayakanur, Theni, TN <br>
+      <b> Score: 64%</b><br>
+               <br>
+               <b>Achievements (2019 – 2025)</b><br>
+     <b>Completed 10+ Mini Projects</b> – dashboards & reports using Kaggle & Great Learning datasets in <b>Retail, BFSI, Healthcare & E-commerce</b>.  
+Winner – <b>Intercollegiate Math Modelling Competition</b> (Bishop Heber & St. Joseph’s Colleges).
+      
+</p>
+  </div>              
+      <!--Hi, I’m <b>Jeevanantham</b>, a passionate Data Analyst with a strong 
+      foundation in <b>Mathematics</b> and real-world projects in <b>Retail, 
+      Banking, E-commerce</b>, and <b>Healthcare</b>.  
+      Skilled in <b>Power BI, SQL, and Tableau</b>, I enjoy transforming 
+      raw data into meaningful insights that drive decisions.-->
+    
+    
+     
+</div>
+
+
+
+
+	    </div>
+      
+      
+      
+<!--
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Highly motivated data analyst with a solid mathematical background accompanied by a Master's degree in Mathematics
+									Seeking to transition my academic knowledge into a professional setting. Looking for a role where I can utilize my 
+									analytical skills to drive data-driven insights and contribute to organizational success. Proficient in data analysis, 
+									statistical analysis, hypothesis testing &amp; customer behaviour analysis. 
+									Demonstrated success in leading impactful projects and providing effective mentorship.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Data Analyst</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce &amp; BFSI</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Master's of Mathematics </span></li>
+									<li class="d-flex"><span>Language:</span> <span>Tamil, English</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span> Microsoft Power BI &amp; Tableau</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span> Git &amp;Google Analytics  </span></li>
+									<li class="d-flex"><span>Soft Skills:</span> <span>Problem-Solving,Critical Thinking,Decision Making,Project Management,Adaptability,Research,Business knowledge,Communication</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Chess,coding challenges,Learning and Development</span></li>
+									
+								</ul>
+							</div>
+						</div>-->
+
+<!--
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="10">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>-->
+                
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+<p style="text-align:center;">
+                    <a href="https://www.linkedin.com/in/jeevanantham-k-377099307/"  class="btn btn-white btn-outline-white py-3 px-4 btn-glow"> LinkedIn  </a>
+                 </p>
+								<!--<p><a href="https://www.linkedin.com/in/jeevanantham-k-377099307/" class="btn btn-white btn-outline-white py-3 px-4 btn-glow">LinkedIn</a></p>-->
+
+
+	
+    
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the sample Data Analytics projects on Excel, SQL, Power BI & Tableau.</p>
+			<div class="underline"></div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/kba-jeevanantham/Power-BI_Dashboard_Projects" class="block-20 zoom-effect" style="background-image: url('images/Blinkit\ image.jpeg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/kba-jeevanantham/Power-BI_Dashboard_Projects">blinkit Data Analysis with Power BI</a></h3>
+                <p>Analyzed blinkit App data using advanced Power queires to analysis of Blinkit's sales performance, customer satisfaction, and inventory distribution to identify key insights and opportunities for optimization using various KPI's and visualization in Power BI.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/kba-jeevanantham/Bank-Laon_Dashboard_Tableau_Project" class="block-20 zoom-effect" style="background-image: url('images/Bank\ loan\ image\ new.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/kba-jeevanantham/Bank-Laon_Dashboard_Tableau_Project">Bankloan Report Data Analysis with Tableau + SQL</a></h3>
+                <p>Bank Loan Report project aiming to monitor lending activities using key metrics, assess loan performance, and inform strategies through dashboards featuring detailed visualizations of loan data, regional trends, and borrower profiles.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/kba-jeevanantham/Healthcare_Tableau_Project" class="block-20 zoom-effect" style="background-image: url('images/Healthcare\ image.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/kba-jeevanantham/Healthcare_Tableau_Project"> Healthcare- Heart failure Data analysis  Project with Tableau</a></h3>
+                <p>The Heart Failure Dashboard provides insights into patient survival based on factors like age, gender, anemia, diabetes, blood pressure, smoking status, and key biomarkers, supporting healthcare decision-making.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/kba-jeevanantham/Earthquake_Tableau_Project" class="block-20 zoom-effect" style="background-image: url('images/Earthquake\ image.jpeg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/kba-jeevanantham/Earthquake_Tableau_Project">Earthquakes 1900-2013 data analysis Project with Tableau</a></h3>
+				  <p>The Earthquakes Dashboard analyzes global seismic activity from 1900 to 2013, highlighting earthquake frequency, magnitude, depth distribution, temporal trends, and geographic patterns, supporting disaster risk management.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/kba-jeevanantham/ECOMMERCE_Dashboard_Power-BI_Project" class="block-20 zoom-effect" style="background-image: url('images/Ecommerce\ image.webp');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/kba-jeevanantham/ECOMMERCE_Dashboard_Power-BI_Project">Ecommerce Sales data analysis Project with Power BI</a></h3>
+				  <p>Ecommerce Sales Power BI project analyzes sales performance, customer behavior, and product trends, providing insights through visual dashboards for data-driven decision-making to enhance sales strategies.</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+     <!-- Center button in portfolio -->
+      
+      <div style="display: flex; justify-content: center; align-items: center;  background-color: transparent;">
+         <a href="https://github.com/kba-jeevanantham?tab=repositories" target="_blank">
+    <button class="Btn">
+      <span class="svgContainer">
+        <svg fill="white" viewBox="0 0 496 512" height="1.6em"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+ </span>
+          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 ..."></path>
+        </svg>
+      </span>
+      <span class="BG"></span>
+    </button>
+  </a></div>
+</div>
+
+	  </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb" id="Certificates-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Certifications</h1>
+            <h2 class="mb-4">Certifications</h2>
+            <p>
+  A certified <b>Data Analyst</b> with a strong mathematical foundation and hands-on project experience.  
+  Through continuous learning and professional certifications, I have built expertise in <b>Advanced Excel, SQL, Python, Power BI, Tableau, and Google Analytics</b>.  
+  These credentials validate my ability to apply <b>data science, business analysis, and statistical techniques</b> to deliver actionable insights and drive organizational growth.
+</p>
+			<div class="underline"></div>
+        </div>
+        </div>
+        <!--
+ <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <!--<h1 class="big big-2">Certificates</h1>
+            <h2 class="mb-4">Certificates</h2>-->
+           <!-- <p>Below are the sample Data Analytics projects on SQL, Power BI & Tableau.</p>
+			<div class="underline"></div>
+          </div>
+        </div>-->
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="COURSE CERTIFICATES/Jeevanantham.K--Data analyst-Certificate--- ACTE.pdf" class="block-20 zoom-effect" style="background-image: url('images/ACTE.webp');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="COURSE CERTIFICATES/Jeevanantham.K--Data analyst-Certificate--- ACTE.pdf">Data Analyst – ACTE Technologies (2024)</a></h3>
+                Successfully completed the <b>Data Analyst Certification</b> at ACTE Technologies, Chennai. 
+    Though designed as a 6-month curriculum, I fast-tracked and completed it in just 2 months, 
+    showcasing my consistency and quick learning ability.  
+    Built strong hands-on expertise in <b>Advanced Excel, SQL Server, Python, Power BI, and Tableau</b>, 
+    applying them to real-time analytics scenarios.</div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="COURSE CERTIFICATES/hp_Data Science & Analytics.pdf" class="block-20 zoom-effect" style="background-image: url('images/HP ICON.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="COURSE CERTIFICATES/hp_Data Science & Analytics.pdf">Data Science & Analytics – HP LIFE (2025)</a></h3>
+                Successfully completed the <b>HP LIFE online course</b> on Data Science & Analytics.  
+    Learned about key <b>practices, methodologies, and tools</b> in data science, 
+    while exploring the <b>benefits and challenges of data-driven decision making</b>.  
+    Gained foundational knowledge of the <b>essential skills required to pursue a career in analytics</b>.
+  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="COURSE CERTIFICATES/Jeevanantham_K_Deloitte._ Data Analytics Job Simulation.pdf" class="block-20 zoom-effect" style="background-image: url('images/Deolitte.webp');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="COURSE CERTIFICATES/Jeevanantham_K_Deloitte._ Data Analytics Job Simulation.pdf"> Data Analytics Job Simulation – Deloitte (Forage, 2025)</a></h3>
+                <p>
+    Completed a <b>virtual internship-style job simulation</b> with Deloitte on Forage.  
+    Gained practical exposure to <b>data analysis</b> and forensic technology tasks</b>, 
+    applying analytical thinking to solve business-related challenges.  
+    Strengthened my understanding of <b>real-world consulting practices</b> in a data-driven environment.
+  </p>
+            </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="COURSE CERTIFICATES/JEEVANANTHAM-K----Google Analytics.pdf" class="block-20 zoom-effect" style="background-image: url('images/Great-Learning-Logo.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="COURSE CERTIFICATES/JEEVANANTHAM-K----Google Analytics.pdf"> Google Analytics – Great Learning (2024)</a></h3>
+				  <p>
+    Gained hands-on knowledge of <b>Google Analytics</b>, learning how to 
+    track, measure, and interpret <b>website & user data</b> to improve digital performance.  
+    Built expertise in <b>traffic analysis, goal setting, campaign tracking, and KPI measurement</b> 
+    to support <b>data-driven business decisions</b>.
+  </p>
+        </div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="COURSE CERTIFICATES/JEEVANANTHAM-K----Data Analysis Project.pdf" class="block-20 zoom-effect" style="background-image: url('images/Great-Learning-Logo.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="COURSE CERTIFICATES/JEEVANANTHAM-K----Data Analysis Project.pdf">Data Analysis Project – Great Learning (2024)</a></h3>
+				  <p>
+    Completed a <b>Data Analysis Project</b> with Great Learning, applying end-to-end 
+    analytics techniques on real-world datasets.  
+    Worked on <b>data cleaning, exploratory data analysis (EDA), visualization, and KPI tracking</b> 
+    to extract actionable business insights.  
+    Strengthened my skills in <b>SQL, Excel, Power BI, and Tableau</b> through practical application.
+         </p>
+        </div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+<!--
+		<div class="row">
+			<h1 class="big-4">Academic project</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023-2024-[RIT-Rajapalayam]</span>
+						<h2>Mathematics and Biological Network</h2>
+						<div class="underline"></div>
+						<!--<span class="position">Merkle</span>
+						 <h2>Modelling Efficient Transmission Of Virus
+                          Between Humans   In Biological NeUsing Graph theory: </h2>
+						  <p class="mt-4"></p>
+							<ul>
+								<li>This project explores the use of graph
+									theory to model the efficient transmission
+									of viruses between humans within a social
+									network.</li>
+								<li> By representing individuals as
+									nodes and their interactions as edges, we
+									can analyze how diseases spread through
+									these connections.</li>
+								<li>This model can be
+									used to identify high-risk individuals or
+									groups within a network, allowing for
+									targeted interventions and improved
+									disease control strategies.</li>
+								<div class="underline"></d>
+							</ul>
+						</p>
+					</div>
+
+				</div>-->
+
+				<!--<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2018-2021</span>
+						<h2>Senior Data Analyst</h2>
+						<span class="position">iQuanti</span>
+						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands. 
+							<ul>
+								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
+								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
+								<li>Performed migration and enhancements for merchandising dashboard, involved data integration and its feature improvement.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2019-2022</span>
+    					<h2>Bachelor of Mathematics</h2>
+						<span class="position">Cardamom Planters' Association College</span>
+    					<br><span class="position">Madurai Kamraj University</span><br>
+						<span class="position">Bodinayakanur, Theni, TN</span>
+    					<!---<p class="mt-4">Grade: First class distinction.</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2018-2019</span>
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">Nadar.Hr.Sec.School</span>
+						<br><span class="position">Bodinayakanur, Theni, TN</span><br>
+    					<!--<p class="mt-4">Grade: First class distinction.</p>
+    				</div>
+				</div>
+    		</div>-->
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="Jeevanantham k_Portfolio_file/Jeevananatham.K_Data & Business_Analyst_Resume - Copy.pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="15">0</strong>
+                <span> Academic Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="11">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <!---<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1000">0</strong>
+                <span>Mentored Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/kba-jeevanantham" class="btn btn-white btn-outline-white py-3 px-4 btn-glow">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p><a href="https://www.google.com/maps/place//@10.0049503,77.3556111,101m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"><b>Theni, TN, India</b></a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101"><b>+91 9361942614</b></a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com"><b>jeevananthamkba@gmail.com</b></a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="Jeevanantham k_Portfolio_file/Jeevananatham.K_Data & Business_Analyst_Resume - Copy.pdf"><b>Resume Link</b></a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/wD64RAso9tv8vkbT8" class="btn btn-primary py-3 px-5 btn btn-white btn-outline-white py-3 px-4 btn-glow">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <!--<li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li>-->
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/jeevanantham-k-377099307/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://x.com/jeeva_02_kbaj"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.facebook.com/jeevanantham.k.94"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/jeevanantham.kba/?__pwa=1"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+       <!--
+                             <div class="card2">
+  <a href="jeevanantham.kba_qr_instagram.png" class="socialContainer containerOne">
+    <svg class="socialSvg instagramSvg" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+  </a>
+  
+  <a href="https://x.com/jeeva_02_kbaj" class="socialContainer containerTwo">
+    <svg class="socialSvg twitterSvg" viewBox="0 0 16 16"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path> </svg>              </a>
+    
+  <a href="https://www.linkedin.com/in/jeevanantham-k-377099307/" class="socialContainer containerThree">
+    <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+  </a>
+  
+  <a href="images/WhatsApp Image .jpg" class="socialContainer containerFour">
+    <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+  </a>
+</div>    -->         
+
+
+      </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	           Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
